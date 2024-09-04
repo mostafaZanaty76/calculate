@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stel.css">
+    <title>calculator</title>
+</head>
+
+<body>
+    <div class="cat">
+    <div class="calculator">
+         <input type="text"  class="screen" id="result" disabled> 
+        <div class="bans">
+            <button onclick="clearResult('AC')" class="span">AC</button>
+            <button onclick="DEL('DEL')" class="span">DEL</button>
+            <button onclick="appendValue('/')" class="span">/</button>
+            <BUtton onclick="appendValue('*')" class="span">*</BUtton>
+            <BUtton onclick="appendValue('7')">7</BUtton>
+            <button onclick="appendValue('8')">8</button>
+            <button onclick="appendValue('9')">9</button>
+            <button onclick="appendValue('-')" class="span">-</button>
+            <button onclick="appendValue('6')">6</button>
+            <button onclick="appendValue('5')">5</button>
+            <button onclick="appendValue('4')">4</button>
+            <button onclick="appendValue('+')" class="span">+</button>
+            <button onclick="appendValue('1')">1</button>
+            <button onclick="appendValue('2')">2</button>
+            <button onclick="appendValue('3')">3</button>
+            <button onclick="calculate('=')" class="but2 span">=</button>
+            <button onclick="appendValue('0')" class="but" >0</button>
+            <button onclick="appendValue('.')">.</button>
+        </div>
+    </div> 
+
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
